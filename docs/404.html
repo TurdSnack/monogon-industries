@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="myth98">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Void Space // Monogon Industries</title>
+  <meta name="description" content="You've wandered outside a mapped MythOS District.">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      background: #050308;
+      background-image:
+        radial-gradient(circle at 30% 20%, rgba(120,60,200,0.18), transparent 45%),
+        radial-gradient(circle at 75% 70%, rgba(60,20,120,0.15), transparent 50%),
+        #050308;
+    }
+    .os-window { border-color: #2a1840 #05030a #05030a #2a1840; box-shadow: 2px 2px 0 #150a24, 4px 4px 22px rgba(120,60,200,0.25); }
+    .void-page { text-align: center; padding: 3.5rem 1.5rem 4rem; }
+    .void-code { font-size: 5rem; font-weight: bold; color: #8b5fd9; letter-spacing: 0.1em; text-shadow: 0 0 24px rgba(139,95,217,0.6); }
+    .void-msg { font-size: 1.3rem; color: #d8c8f0; margin: 0.5rem 0 1.5rem; }
+    .void-sub { color: #9a8ab0; max-width: 52ch; margin: 0 auto 2rem; }
+    .void-tag { font-family: var(--font-body), monospace; color: #6ecfcf; font-size: 0.95rem; opacity: 0.85; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <div class="os-window">
+
+    <div class="myth98-titlebar" style="background: linear-gradient(to right, #1a0a30 0%, #4a1f7a 50%, #7a3fc0 100%);">
+      <span class="myth98-titlebar-icon">&#127760;</span>
+      <span class="myth98-titlebar-text">MythOS98 — Unmapped Region</span>
+      <div class="myth98-titlebar-buttons" aria-hidden="true">
+        <span class="myth98-btn">&#x2014;</span>
+        <span class="myth98-btn">&#x25A1;</span>
+        <span class="myth98-btn myth98-btn-close">&#x2715;</span>
+      </div>
+    </div>
+
+    <div class="os-content" style="background:#0a0612;">
+      <div class="void-page">
+        <div class="void-code">404</div>
+        <p class="void-msg">You've wandered off the mapped Districts.</p>
+        <p class="void-sub">This foundation plate hasn't taken root yet — or it did, and Monogon flushed it. Either way, there's nothing here that a MonoSec Clean-Up Crew hasn't already been notified about.</p>
+        <div class="btn-row" style="justify-content:center;">
+          <a class="btn btn-primary" href="index.html">Return to a mapped District &rarr;</a>
+        </div>
+        <p class="void-tag">- LavaGang was here -</p>
+      </div>
+    </div>
+
+    <div class="status-bar" style="background:#0a0612; color:#8a7aa0; border-color:#2a1840;">
+      <span class="status-item">&#9888;&#65039; Unregistered instance — outside MonoSec coverage</span>
+      <span class="status-sep"></span>
+      <span class="status-item" data-clock>MYTHOS-STANDARD</span>
+    </div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
